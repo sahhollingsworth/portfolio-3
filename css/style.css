@@ -1,0 +1,26 @@
+.jumbotron{
+    font-family: 'Bebas Neue', cursive;
+    width: 100%;
+    height: 100%;
+    background-image: url("../img/hero-dan-aragon.jpg");
+    background-size: cetner;
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color:white !important;
+    -webkit-background-size: 100% 100%;
+    -moz-background-size: 100% 100%;
+    -o-background-size: 100% 100%;
+    background-size: 100% 100%;
+}
+.lead {
+    letter-spacing: 1px;
+}
+
+#hi {
+    border-color: #E46A6E;
+}
+
+#hi:hover {
+    background-color: #E46A6E;
+}
