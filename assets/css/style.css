@@ -58,10 +58,31 @@ body {
     font-size: 17px;
 }
 
-img {
+#img-me {
     width: 200px;
     height: 200px;
+    border: none;
+    padding: 1px;
 }
+
+/* .img-thumbnail {
+
+} */
+
+
+/* Work */
+.project {
+    width: 100%;
+}
+
+.img-project {
+    width: 400px;
+    height: 280px;
+    box-shadow: 5px, 10px, #E46A6E;
+    border: 1px solid;
+    border-color: white;
+}
+
 
 /* Contact */
 #contact-container {
