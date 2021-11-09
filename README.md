@@ -4,7 +4,7 @@ This another version of my web development portfolio, built to be lightweight, r
 This 3rd portfolio also serves as an exploration of Bootstrap.
 
 ## Summary
-Click here to see the deployed portfolio.
+[Click here to see the deployed portfolio.](https://sahhollingsworth.github.io/portfolio-3/)
 
 ![Image of portfolio site](./assets/img/README-portfolio-screenshot.png "screenshot of web development portfolio")
 
