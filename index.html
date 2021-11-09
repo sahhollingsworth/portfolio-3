@@ -20,11 +20,14 @@
 </head>
 <body>
     <div class="jumbotron jumbotron-fluid">
+        <!-- headline -->
         <div class="container mx-5">
             <h1 class="display-2">Sarah Hollingsworth</h1>
             <p class="h1" id="byline">Web Developer & Product Management</p>
             <button class="btn btn-outline-danger" id="hi" href="#contact">Say Hi</button>
         </div>
+        <!-- end headline -->
+        <!-- nav menu -->
         <div class="container d-flex justify-content-end">
             <nav class="navbar navbar-expand-lg navbar-light">
                 <div class="container-fluid">
@@ -50,40 +53,54 @@
                 </div>
             </nav>
         </div>
-        <!-- <nav class="navbar navbar-expand-lg navbar-light">
-            <div class="container-fluid">
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
-                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                        <li class="nav-item px-2">
-                            <a class="nav-link text-white" href="#about">About</a>
-                        </li>
-                        <li class="nav-item px-2">
-                            <a class="nav-link text-white" href="#work">Work</a>
-                        </li>
-                        <li class="nav-item px-2">
-                            <a class="nav-link text-white" href="#experience">Experience</a>
-                        </li>
-                        <li class="nav-item px-2">
-                            <a class="nav-link text-white" href="#contact">Contact</a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </nav> -->
+        <!-- end nav menu-->
     </div>
     <main>
-        <section id="about">
-        </section>
-        <section id="work">
+        <Article id="about" class="container content-contain d-flex">
+            <div class="row">
+                <div class="col-2">
+                    <h1 class="display-5">ABOUT</h1>
+                </div>
+                <div class="col-4">
+                    <!-- image-->
+                </div>
+                <div class="col-6">
+                    <div class="col-6"
+                        <p>Soon-to-be web developer with a background progressing through consumer support, operations, and product management roles. I enjoy approaching application developement from a wholelistic perspective, prioritizing user experience, product market fix, as well as low impact and sustainable infrastructure for growth. This is my first shot at making a portfolio and I'm looking forward to revisiting it as I build my understanding of CSS in the course of the UCB Bootcamp.</p>
+                    </div>
+                    <!-- <div class="col-2"></div>
+                    <div class="col-2"></div>
+                    <div class="col-2"></div> -->
+                    <div class="col-2">
+                        <p class="contact-type">LINKEDIN</p>
+                        <p class="contact-value"><a href="https://www.linkedin.com/in/sarahhollingsworth">sarahhollingsworth</a></p>
+                    </div>
+                    <div class="col-2">
+                        <p class="contact-type">GITHUB</p>
+                        <p class="contact-value"><a href="https://github.com/sahhollingsworth">sahhollingsworth</a></p>
+                    </div>
+                    <div class="col-2">
+                        <p class="contact-type">RESUME</p>
+                        <p class="contact-value"><a href="https://github.com/sahhollingsworth">Click to download</a></p>
+                    </div>
+                </div>
+            </div>
+        </Article>
+        
+
+        <section id="work" class="container content-contain d-flex">
+            <h1 class="display-5">WORK</h1>
             <!-- projects -->            
         </section>
-        <section id="experience">
+
+        <section id="experience" class="container content-contain d-flex">
+            <h1 class="display-5">EXPERIENCE</h1>
             <!-- resume, LI, GH skills -->
         </section>
-        <section id="contact">
+
+        <section id="contact" class="container content-contain d-flex">
+            <h1 class="display-5">CONTACT</h1>
+            <h2 class="display-6">Say Hi</h2>
             <!-- form, phone, email -->
         </section>
     </main>
