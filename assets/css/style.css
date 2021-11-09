@@ -69,19 +69,37 @@ a:hover {
     padding: 1px;
 }
 
-/* .img-thumbnail {
-
-} */
-
-
 /* Work */
 .project {
     width: 100%;
 }
 
+/* Show title on Project image when hover */
+.project-title {
+    background-color: rgba(122, 118, 118, 0.5);
+    /*positioned relative to parent div (container) */
+    position: absolute;    
+    /* top margin is 0 so that it 
+    coincides with container's top margin*/
+    top: 0;             
+    color: white;
+    width: 100%;
+    font-size: 25px;
+    padding: 15px 0;
+    text-align: center;
+    /*invisible because opacity is 0*/
+    opacity: 0;            
+    transition: 0.4s;
+}
+
+.project-img-container:hover .project-title {
+    /*becomes visible on hover*/ 
+    opacity: 1;   
+}
+
 .img-project {
     width: 400px;
-    height: 280px;
+    height: 250px;
     box-shadow: 5px 10px #E46A6E;
     border-top: 2px solid;
     border-left: 2px solid;
