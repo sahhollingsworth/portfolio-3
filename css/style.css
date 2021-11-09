@@ -11,6 +11,7 @@ body {
     margin: 0;
     font-family: 'Bebas Neue', sans-serif;
     color: white;
+    letter-spacing: 1px;
 }
 
 /* jumbotron elements */
@@ -52,3 +53,7 @@ body {
 }
 
 /* Sections */
+
+#about-long {
+    font-size: 17px;
+}
