@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -18,13 +19,14 @@
     <!--<link rel="shortcut icon" href="./images/celebrityshowdown-logo-black.png" /> -->
     <title>Hollingsworth Portfolio</title>
 </head>
+
 <body>
     <div class="jumbotron jumbotron-fluid">
         <!-- headline -->
         <div class="container mx-5">
             <h1 class="display-1">Sarah Hollingsworth</h1>
             <p class="h1" id="byline">Web Developer & Product Management</p>
-            <button class="btn btn-outline-danger" id="hi" href="#contact">Say Hi</button>
+            <button class="btn btn-outline-danger" id="hi" href="#contact-form">Say Hi</button>
         </div>
         <!-- end headline -->
         <!-- nav menu -->
@@ -43,9 +45,6 @@
                                 <a class="nav-link text-white" href="#work">Work</a>
                             </li>
                             <li class="nav-item px-2">
-                                <a class="nav-link text-white" href="#experience">Experience</a>
-                            </li>
-                            <li class="nav-item px-2">
                                 <a class="nav-link text-white" href="#contact">Contact</a>
                             </li>
                         </ul>
@@ -58,8 +57,8 @@
     <main>
         <Article id="about" class="container content-contain d-flex my-5 py-2">
             <div class="row">
-                <div class="col-2 d-flex justify-content-center align-items-center">
-                    <h1 class="display-2">ABOUT</h1>
+                <div class="col-2 d-flex justify-content-end align-items-start">
+                    <h1 class="display-3">ABOUT</h1>
                 </div>
                 <div class="col-4 d-flex justify justify-content-center align-items-center">
                     <img src="assets/img/headshot_about.png" alt="picture of me in my happy place, dinner" class="img-thumbnail">
@@ -71,11 +70,11 @@
                     <div class="row d-flex align-items-center justify-content-evenly py-2">
                         <div class="col-4 d-flex flex-column">
                             <h4>LINKEDIN</h4>
-                            <p><a href="https://www.linkedin.com/in/sarahhollingsworth">sarahhollingsworth</a></p>
+                            <p><a href="https://www.linkedin.com/in/sarahhollingsworth" target="_blank">sarahhollingsworth</a></p>
                         </div>
                         <div class="col-4 d-flex flex-column">
                             <h4>GITHUB</h4>
-                            <p><a href="https://github.com/sahhollingsworth">sahhollingsworth</a></p>
+                            <p><a href="https://github.com/sahhollingsworth"target="_blank">sahhollingsworth</a></p>
                         </div>
                         <div class="col-4 d-flex flex-column">
                             <h4>RESUME</h4>
@@ -88,19 +87,45 @@
         
 
         <section id="work" class="container content-contain d-flex my-5 py-2">
-            <h1 class="display-5">WORK</h1>
-            <!-- projects -->            
+            <!-- projects -->
+            <div class="row d-flex justify-content-between" id="contact-container">
+                <div class="col-2 d-flex justify-content-end align-items-center">
+                    <h1 class="display-3">WORK</h1>
+                </div>
+                <div class="row col-10 d-flex">
+                
+                </div>
+            </div>            
         </section>
-
-        <section id="experience" class="container content-contain d-flex my-5 py-2">
-            <h1 class="display-5">EXPERIENCE</h1>
-            <!-- resume, LI, GH skills -->
-        </section>
-
+        <!-- Contact sections with access options -->
         <section id="contact" class="container content-contain d-flex my-5 py-2">
-            <h1 class="display-5">CONTACT</h1>
-            <h2 class="display-6">Say Hi</h2>
-            <!-- form, phone, email -->
+            <div class="row d-flex justify-content-between" id="contact-container">
+                <div class="col-2 d-flex justify-content-end align-items-center">
+                    <h1 class="display-3">CONTACT</h1>
+                </div>
+                <div class="row col-10 d-flex justify-content-center align-items-center">
+                    <div class="col-4 d-flex flex-column mx-1">
+                        <h4>EMAIL</h4>
+                        <p><a href="mailto:sarahhollingsworth.dev@gmail.com">sarahhollingsworth.dev@gmail.com</a></p>
+                    </div>
+                    <div class="col-3 d-flex flex-column mx-2">
+                        <h4>TELEPHONE</h4>
+                        <p>650-245-6683</p>
+                    </div>
+                    <div class="col-3 d-flex flex-column mx-2">
+                        <h4>MEDIUM</h4>
+                        <p><a href="https://medium.com/@sarahholli" target="_blank">@sarahholli</a></p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact-form" class="container content-contain d-flex my-5 py-2">
+            <div class="row">
+                <div class="col-2 d-flex justify-content-end align-items-center">
+                    <h1 class="display-3">REACH OUT</h1>
+                </div>
+            </div>
         </section>
     </main>
 </body>

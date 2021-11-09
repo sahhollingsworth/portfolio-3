@@ -53,7 +53,7 @@ body {
 }
 
 /* Sections */
-
+/* About */
 #about-long {
     font-size: 17px;
 }
@@ -61,4 +61,9 @@ body {
 img {
     width: 200px;
     height: 200px;
+}
+
+/* Contact */
+#contact-container {
+    width: 100%;
 }
